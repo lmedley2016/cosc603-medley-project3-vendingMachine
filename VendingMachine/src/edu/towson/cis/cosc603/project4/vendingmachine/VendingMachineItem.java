@@ -6,10 +6,11 @@ package edu.towson.cis.cosc603.project4.vendingmachine;
 public class VendingMachineItem {
 
 	// The name of the item
-	private String name;
+	private String name = "Candy";
 
 	// The price of the item
-	private double price;
+	private double price = 0.00;
+	//private double priceInvalid = -1.00;
 
 	// Exception message for when the price is less than zero
 	private final static String PRICE_LESS_THAN_ZERO_MESSAGE = "Price cannot be less than zero";
